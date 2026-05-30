@@ -38,7 +38,6 @@ Unutar test klase pokriveno je ukupno 8 scenarija podeljenih u tri grupe:
 * Provera da se prazna forma ne može poslati (validacija obaveznih polja).
 * Validacija neispravnog formata email adrese (npr. bez `@` ili domena).
 * Validacija neispravnog formata broja telefona (manje od 10 cifara).
-* Provera restrikcije unosa predugačkog broja telefona (potvrda da polje na front-endu blokira unos nakon 10 ispisnih cifara).
 
 ### 3. Automatizovani Stvarni Bagovi (Bug Reporting)
 * **Bag sa datumom rođenja:** Test dokazuje da forma pogrešno dopušta slanje i registrovanje korisnika sa datumom rođenja u dalekoj budućnosti.
