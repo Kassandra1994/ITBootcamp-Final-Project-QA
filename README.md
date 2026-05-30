@@ -2,12 +2,6 @@
 
 Ovaj projekat predstavlja završni rad na ITBootcamp obuci za QA Inženjera. Fokus projekta je automatizovano end-to-end (E2E) testiranje forme za registraciju na sajtu [DemoQA](https://demoqa.com/automation-practice-form).
 
-## 📋 QA Dokumentacija (Manuelno Testiranje)
-
-Pored automatizovanih testova, projekat sadrži i prateću QA dokumentaciju kreiranu u Excelu, koja pokriva proces manuelnog testiranja pre same automatizacije:
-
-* **Test Cases (Test tekstualni scenariji):** Detaljno napisani koraci za testiranje forme, sa predulovima (Preconditions), koracima (Steps) i očekivanim rezultatima (Expected Result).
-* **Bug Reports (Izveštaji o bagovima):** Profesionalno dokumentovani bagovi pronađeni tokom testiranja. Svaki bug report sadrži naslov, ozbiljnost (Severity), prioritet (Priority), korake za reprodukciju (Steps to Reproduce), očekivani nasuprot stvarnom ishodu, kao i okruženje na kojem je testirano.
 
 ## 🚀 Tehnologije i Alati
 * **Java** (verzija 26) - Programski jezik
@@ -58,3 +52,10 @@ Unutar test klase pokriveno je ukupno 8 scenarija podeljenih u tri grupe:
    `git clone <link_tvog_repozitorijuma>`
 2. Otvorite projekat u IntelliJ IDEA.
 3. Desni klik na `TestRegistration.java` klasu -> **Run 'TestRegistration'**.
+
+## 📋 QA Dokumentacija (Manuelno Testiranje)
+
+Pored automatizovanih testova, projekat sadrži i prateću QA dokumentaciju kreiranu u Excelu, koja pokriva proces manuelnog testiranja pre same automatizacije:
+
+* **Test Cases (Test tekstualni scenariji):** Detaljno napisani koraci za testiranje forme, sa predulovima (Preconditions), koracima (Steps) i očekivanim rezultatima (Expected Result).
+* **Bug Reports (Izveštaji o bagovima):** Profesionalno dokumentovani bagovi pronađeni tokom testiranja. Svaki bug report sadrži naslov, ozbiljnost (Severity), prioritet (Priority), korake za reprodukciju (Steps to Reproduce), očekivani nasuprot stvarnom ishodu, kao i okruženje na kojem je testirano.
